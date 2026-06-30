@@ -1,0 +1,22 @@
+{
+  "name": "weather-glass-dashboard",
+  "version": "1.0.0",
+  "description": "A premium weather glass dashboard - Final Year Project",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "Final Year Project",
+  "license": "MIT"
+}
